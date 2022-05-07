@@ -1,9 +1,7 @@
 
-/*Margin and Padding Reset*/
+/*Reset*/
 *{
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
 }
 
 /*Responsive Framework*/
@@ -60,6 +58,7 @@
 @media (min-width: 768px) and (min-width: 991px){
 	.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
 		float: left;
+		
 	}
 		.col-md-1{
 			width: 8.33%;
@@ -97,4 +96,51 @@
 		.col-md-12{
 			width: 100%;
 		}
+}
+
+/*Usual Element Styles*/
+
+body{
+	font-family: Verdana;
+}
+
+h1{
+	text-align: center;
+	margin: 15px;
+}
+
+p{
+	padding: 10px;
+	margin-top: 40px;
+	
+}
+
+.col{
+	border: 1px solid black;
+	position: relative;
+	margin: 10px 10px;
+	background-color: lightgray;
+}
+
+.heading{
+	width: 90px;
+	height: 40px;
+	text-align: center;
+	font-weight: bold;
+	position: absolute;
+	border: 1px solid black;
+	right: 0;
+	top: 0;	
+}
+
+#hd1{
+	background-color: lightskyblue;
+}
+
+#hd2{
+	background-color: lightcoral;
+}
+
+#hd3{
+	background-color: lightgreen;
 }
