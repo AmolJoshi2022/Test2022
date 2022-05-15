@@ -1,0 +1,31 @@
+#brand h1{
+    text-shadow: -3px 1px 3px #6610f2;
+}
+
+#navid ul a{
+    color: #333;
+}
+
+#navid ul a:hover{
+    background-color: sandybrown;
+}
+
+.navbar-toggler:hover{
+    background-color: sandybrown;
+}
+
+#webhead{
+    background-color: lightcyan;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#chicken, #sushi, #beef{
+    box-shadow: -2px 2px 4px black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#rowheader{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
